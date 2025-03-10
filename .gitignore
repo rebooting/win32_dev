@@ -1,0 +1,19 @@
+*.exe
+# VS Code files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Other common files
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.tmp
+*~
+
+build/
+src/CMakeFiles/
