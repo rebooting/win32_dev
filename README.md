@@ -27,5 +27,6 @@ The exe will be generated in the `build` directory.
 
 After building the project, you can run the application by executing the generated executable (`Win32Dev.exe` on Windows). You should see a message box displaying "Hello, Win32!".
 
-Quick way to to test is to launch a command prompt in Bottle (or any Wine environment) and run the executable:
+Quick way to test while still on Linux is to launch a command prompt in Bottle (or any Wine environment) and run the executable:
+
 ![alt text](image.png)
