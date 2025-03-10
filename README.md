@@ -18,8 +18,10 @@ win32_dev
 
 To build the project, follow these steps:
 
-```make configure
-   make build
+```
+make configure
+
+make build
 ```
 The exe will be generated in the `build` directory.
 
