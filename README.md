@@ -32,3 +32,12 @@ After building the project, you can run the application by executing the generat
 Quick way to test while still on Linux is to launch a command prompt in Bottle (or any Wine environment) and run the executable:
 
 ![alt text](image.png)
+
+
+## Console only
+
+The default build uses WinMain as entry, to use console mode aka 
+```int main(int argc, char *argv[])```
+
+remove "-mwindows"
+in CMakeList.txt
